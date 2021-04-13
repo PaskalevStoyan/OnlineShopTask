@@ -1,0 +1,108 @@
+[
+    {
+        "ProductID": 1,
+        "ProductName": "Chai",
+        "UnitPrice": 18,
+        "UnitsInStock": 39,
+        "DeliveryOn": "new Date(1996, 8, 20)",
+        "image": "./img/chai.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 2,
+        "ProductName": "Strawberry Krispies",
+        "UnitPrice": 19,
+        "UnitsInStock": 17,
+        "DeliveryOn": "new Date(1996, 7, 12)",
+        "image": "./img/Strawberry Krispies.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 3,
+        "ProductName": "Aniseed Syrup",
+        "UnitPrice": 10,
+        "UnitsInStock": 0,
+        "DeliveryOn": "new Date(1996, 8, 26)",
+        "image": "./img/aniseed syrup.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 4,
+        "ProductName": "Chef Anton's Cajun Seasoning",
+        "UnitPrice": 22,
+        "UnitsInStock": 53,
+        "DeliveryOn": "new Date(1996, 9, 19)",
+        "image": "./img/Chef Anton's Cajun Seasoning.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 5,
+        "ProductName": "Chef Anton's Gumbo Mix",
+        "UnitPrice": 21.35,
+        "UnitsInStock": 0,
+        "DeliveryOn": "new Date(1996, 7, 17)",
+        "image": "./img/Chef Anton's Gumbo Mix.jpeg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 6,
+        "ProductName": "Grandma's Boysenberry Spread",
+        "UnitPrice": 25,
+        "UnitsInStock": 120,
+        "DeliveryOn": "new Date(1996, 9, 19)",
+        "image": "./img/Boysenberry Fruit Spread.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 7,
+        "ProductName": "Uncle Bob's Golden Rice",
+        "UnitPrice": 30,
+        "UnitsInStock": 0,
+        "DeliveryOn": "new Date(1996, 7, 22)",
+        "image": "./img/Uncle Bob's Golden Rice.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 8,
+        "ProductName": "Ocean Spray Whole Cranberry Sauce",
+        "UnitPrice": 40,
+        "UnitsInStock": 0,
+        "DeliveryOn": "new Date(1996, 11, 1)",
+        "image": "./img/Ocean Spray Whole Cranberry Sauce.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 9,
+        "ProductName": "Belvita Breakfast Soft Bakes",
+        "UnitPrice": 97,
+        "UnitsInStock": 29,
+        "DeliveryOn": "new Date(1997, 1, 21)",
+        "image": "./img/Belvita Breakfast Soft Bakes.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },
+    {
+        "ProductID": 10,
+        "ProductName": "Shoyu Ikura",
+        "UnitPrice": 31,
+        "UnitsInStock": 31,
+        "DeliveryOn": "new Date(1996, 8, 5)",
+        "image": "./img/Shoyu Ikura.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },{
+        "ProductID": 9,
+        "ProductName": "Belvita Breakfast Soft Bakes",
+        "UnitPrice": 97,
+        "UnitsInStock": 0,
+        "DeliveryOn": "new Date(1997, 1, 21)",
+        "image": "./img/Belvita Breakfast Soft Bakes.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    },{
+        "ProductID": 10,
+        "ProductName": "Shoyu Ikura",
+        "UnitPrice": 31,
+        "UnitsInStock": 0,
+        "DeliveryOn": "new Date(1996, 8, 5)",
+        "image": "./img/Shoyu Ikura.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
+    }
+]
