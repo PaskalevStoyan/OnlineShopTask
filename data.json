@@ -88,21 +88,5 @@
         "DeliveryOn": "new Date(1996, 8, 5)",
         "image": "./img/Shoyu Ikura.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
-    },{
-        "ProductID": 9,
-        "ProductName": "Belvita Breakfast Soft Bakes",
-        "UnitPrice": 97,
-        "UnitsInStock": 0,
-        "DeliveryOn": "new Date(1997, 1, 21)",
-        "image": "./img/Belvita Breakfast Soft Bakes.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
-    },{
-        "ProductID": 10,
-        "ProductName": "Shoyu Ikura",
-        "UnitPrice": 31,
-        "UnitsInStock": 0,
-        "DeliveryOn": "new Date(1996, 8, 5)",
-        "image": "./img/Shoyu Ikura.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at commodi sint ab, vitae minus quaerat ratione minima rerum ipsam."
     }
 ]
