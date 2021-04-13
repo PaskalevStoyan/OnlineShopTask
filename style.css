@@ -48,27 +48,27 @@ p {
     color:#fff;
     justify-content:center;
     padding:1rem;
-  }
+}
 
   .navbar ul{
     display:flex;
     align-items:center;
     list-style:none;
     margin-top:0.5rem;
-  }
+}
   
   .navbar ul li a{
     color:#fff;
     padding: 0.75rem;
     margin: 0 0.75rem;
-  }
+}
 
   .navbar ul li a:hover{
     background:#F5D071;
     color:#000;
     
     border-radius:5px;
-  }
+}
 
 .showcase {
     background: url('./img/showcase-bg.jpg')
@@ -116,7 +116,6 @@ p {
   transform: translateY(-10px);
 }
 
-
 .product-img {
   width:200px;
   height:200px;
@@ -136,8 +135,6 @@ p {
   outline: none;
   border: none;
 }
-
-
 
 .modal-product-img {
   margin-top:1rem;

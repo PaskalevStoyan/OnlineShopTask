@@ -6,7 +6,31 @@ const modalProductShippingDate = document.querySelector('.modal-product-shipping
 const modalProductImage = document.querySelector('.modal-product-img');
 const modalProductDescription = document.querySelector('.modal-product-description');
 
-let prods = [];
+
+//When an item is chosen it displays its information in the modal
+products.addEventListener('click', (event) => {
+    if (event.target.classList.contains('btn')) {
+        const prevSibling = event.target.previousElementSibling;
+        const item = productsArray[prevSibling.id - 1];
+        let date = new Date(item.DeliveryOn.slice(9, item.DeliveryOn.length - 1));
+        date = `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`; 
+        loadModalInformation(item, date);
+        const description = `<span class="desc">Description: </span> <p>${ item.description}</p>`
+        modalProductDescription.innerHTML = description
+    }
+});
+//Load the current item's information into the Modal
+function loadModalInformation(item, date) {
+    modalTitle.textContent = item.ProductName;
+    modalProductPrice.textContent = `Price: ${item.UnitPrice}$`;
+    modalProductQuantity.textContent = `In stock: ${item.UnitsInStock}`;
+    modalProductShippingDate.textContent = `Delivery date: ${date}`;
+    modalProductImage.src = item.image;
+}
+
+let productsArray = [];
+
+//fetch request to get the data and visualize it
 function getProducts() {
     fetch('data.json')
         .then(res => res.json())
@@ -23,38 +47,19 @@ function getProducts() {
                         </p>
                         <p>${product.UnitPrice.toFixed(2)}$</p>
                     </div>
-                    <button ${product.UnitsInStock > 0 ? '' : 'disabled'}  type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#prodModalCenter">More info</button>
+                    <button 
+                    ${product.UnitsInStock > 0 ? '' : 'disabled'}  
+                    type="button" class="btn btn-primary mt-2" 
+                    data-toggle="modal" 
+                    data-target="#prodModalCenter">More info
+                    </button>
 
                 </div>
             `
-            prods.push(product);
+            productsArray.push(product);
             });
             products.innerHTML = output;
         })
 }
-
-products.addEventListener('click', (event) => {
-    if (event.target.classList.contains('btn')) {
-       
-        const prevSibling = event.target.previousElementSibling;
-        const item = prods[prevSibling.id - 1];
-        let date = new Date(item.DeliveryOn.slice(9, item.DeliveryOn.length - 1));
-        date = `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`; 
-        
-        modalTitle.textContent = item.ProductName;
-        modalProductPrice.textContent = `Price: ${item.UnitPrice}$`;
-        modalProductQuantity.textContent = `In stock: ${item.UnitsInStock}`;
-        modalProductShippingDate.textContent = `Delivery date: ${date}`;
-        modalProductImage.src = item.image;
-
-        const description = `<span class="desc">Description: </span> <p>${ item.description}</p>`
-        modalProductDescription.innerHTML = description
-        
-    }
-});
-
-console.log(products);
-
-
 
 getProducts();
