@@ -38,12 +38,8 @@ p {
   background-color: #333;
 }
 
-
 .navbar{
     display:flex;
-    /* position:sticky;
-    top:0; 
-    z-index:1; */
     background: #BC3F3F;
     color:#fff;
     justify-content:center;
@@ -54,26 +50,26 @@ p {
     display:flex;
     align-items:center;
     list-style:none;
-    margin-top:0.5rem;
+    margin-top:1.25rem;
 }
   
   .navbar ul li a{
     color:#fff;
-    padding: 0.75rem;
-    margin: 0 0.75rem;
+    padding: .75rem;
+    margin: 1rem;
 }
 
   .navbar ul li a:hover{
     background:#F5D071;
     color:#000;
     
-    border-radius:5px;
+    border-radius:10px;
 }
 
 .showcase {
     background: url('./img/showcase-bg.jpg')
     no-repeat top center/cover;
-    height:120vh;
+    height:130vh;
     margin-top:-9rem;
 }
 .heading {
