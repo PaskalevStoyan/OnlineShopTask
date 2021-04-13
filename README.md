@@ -6,7 +6,7 @@ This project is built using vanilla JavaScript, HTML along with custom CSS and B
 
 ## Goal
 The idea behind this simple project is to simulate an online shop without its main functionalities - adding items to a cart, placing orders and delivering. 
-The data(items) are coming from a file named "data.json", in which an array of object is included to simulate a database for the items. 
+The data(items) are coming from a file named "data.json", in which an array of objects is included to simulate a database for the items. 
 
 ## Functionality 
 * Functions:
